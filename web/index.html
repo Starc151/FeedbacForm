@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+  <meta charset="UTF-8">
+  <title>Заявка системному администратору</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:600'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <div class="form_wrapper">
+    <div class="form_container">
+      <div class="title_container">
+        <h2>Заявка системному администратору</h2>
+      </div>
+      <div class="row clearfix">
+        <div class="">
+            <form>
+              <div class="input_field"></span>
+                <label for="cb1">ФИО:</label><div class="gap"></div>
+                <input type="text" name="fio" required />
+              </div>
+              <div class="input_field">
+                <label for="cb1">Контактный телефон:</label><div class="gap"></div>
+                <input type="tel" name="phone" required />
+              </div>
+              <label for="cb1">Адрес заявки:</label><div class="gap"></div>
+              <div class="input_field radio_option">
+                <input type="radio" name="radiogroup1" id="rd1">
+                <label required  for="rd1">ул.Вишнёвая, д.20к1</label><div class="gap"></div>
+                <input type="radio" required name="radiogroup1" id="rd2">
+                <label for="rd2">ул.Тушинская, д.7</label><div class="gap"></div>
+                <input type="radio" name="radiogroup1" id="rd3">
+                <label for="rd3">ул.Долгова, д.14А</label><div class="gap"></div>
+                <input type="radio" name="radiogroup1" id="rd4">
+                <label for="rd4">1й Тушинский пр., д.13</label><div class="gap"></div>
+                <input type="radio" name="radiogroup1" id="rd5">
+                <label for="rd5">1й Тушинский пр., д. 10</label>
+              </div>
+              <div class="input_field"></span>
+                <label for="cb1">Кабинет:</label><div class="gap"></div>
+                <input type="text" name="kab" required />
+              </div>
+              <div class="input_field"></span>
+                <label for="cb1">Опишите проьлему:</label><div class="gap"></div>
+                <input type="text" name="problem" required />
+              </div>
+              <input class="button" type="submit" value="Отправить заявку" />
+              <input class="button" type="reset" value="Очистить данные" />
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
